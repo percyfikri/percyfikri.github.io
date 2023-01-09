@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Login</title>
+    <!-- include Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-md-6 offset-md-3">
+          <h1>Login</h1>
+          <form action="/login.php" method="post" class="form-group">
+            <label for="email">Email or Phone:</label>
+            <input type="text" id="email" name="email" class="form-control"><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" class="form-control"><br>
+            <input type="submit" value="Log In" class="btn btn-primary mt-3">
+          </form> 
+          <p class="mt-3">Forgotten password? <a href="#">Reset it</a></p>
+          <p>Don't have an account? <a href="#">Sign up</a></p>
+        </div>
+      </div>
+    </div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In debitis iste, dicta enim quos veritatis exercitationem suscipit voluptatum. Porro distinctio illum ratione eum minima omnis vitae sed cumque quasi illo!</p>
+  </body>
+</html>
